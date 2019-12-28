@@ -3473,9 +3473,9 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
-    margin-top: 5.4rem;
+    vertical-align: center;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff
 }
 
