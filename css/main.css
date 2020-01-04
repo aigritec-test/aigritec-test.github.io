@@ -75,7 +75,7 @@ html, body {
 
 body {
     background: #111111;
-    font-family: "lora-regular", serif;
+    font-family: "montserrat-regular", serif;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
@@ -208,11 +208,11 @@ em, i, strong, b {
 }
 
 em, i {
-    font-family: "lora-italic", serif;
+    font-family: "montserrat-italic", serif;
 }
 
 strong, b {
-    font-family: "lora-bold", serif;
+    font-family: "montserrat-bold", serif;
 }
 
 small {
@@ -264,7 +264,7 @@ blockquote cite a, blockquote cite a:visited {
 }
 
 abbr {
-    font-family: "lora-bold", serif;
+    font-family: "montserrat-bold", serif;
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
@@ -425,7 +425,7 @@ table {
     border-width: 0;
     width: 100%;
     max-width: 100%;
-    font-family: "lora-regular", serif;
+    font-family: "montserrat-regular", serif;
 }
 
 th, td {
@@ -1764,12 +1764,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .s-home .overlay {
     position: absolute;
-    top: 0;
+    top: 32%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 25%;
     opacity: .6;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .no-js .s-home {
@@ -1788,6 +1788,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 15.6rem;
     position: relative;
     overflow: hidden;
+
+}
+
+.site-logoo {
+    font-size: 1.6rem;
 }
 
 .home-content h3 {
@@ -1803,8 +1808,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 6.3rem;
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 5.3rem;
     line-height: 1.333;
     margin-top: 0;
     color: #B3D89C;
@@ -2798,7 +2803,7 @@ color: #B3D89C
 }
 
 .clients-testimonials .testimonials p {
-    font-family: "lora-regular", serif;
+    font-family: "montserrat-regular", serif;
     font-size: 3rem;
     line-height: 1.8;
     color: #555555;
