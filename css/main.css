@@ -1620,21 +1620,23 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 .main-menu {
-  padding-top: 20px; }
+  padding-top: 10px;
+   }
   .main-menu > .row {
     padding: 0 15px; }
 
 #header {
-  padding: 0px 0px 20px 0px;
+  background-color: #ffffff;
+  opacity: 0.97;
+  padding: 0px 0px 10px 0px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997; }
+  z-index: 997;}
 
 .header-scrolled {
-  background: rgba(70, 219, 249, 0.9);
   transition: all 0.5s; }
 
 @media (max-width: 673px) {
@@ -1655,6 +1657,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 4px solid #46dbf9; }
 
 #header #logo img {
+height: 40px;
   padding: 0;
   margin: 0; }
 
@@ -1687,13 +1690,16 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap; }
 
 .nav-menu > li {
+
   float: left; }
 
 .nav-menu li:hover > ul,
 .nav-menu li.sfHover > ul {
+
   display: block; }
 
 .nav-menu ul ul {
+
   top: 0;
   left: 100%; }
 
@@ -1718,7 +1724,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Container */
 #nav-menu-container {
-  margin: 0; }
+  margin: 0;
+;}
 
 /* Nav Meu Styling */
 .nav-menu a {
@@ -1731,7 +1738,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  outline: none; }
+  outline: none;
+  color: black}
   .nav-menu a:last-child a {
     margin-right: 0;
     padding-right: 0; }
