@@ -610,10 +610,11 @@ td, th {
   margin-right: 0; }
 
 .section-gap {
-  padding: 150px 0; }
+  padding: 100px 0;
+   }
   @media (max-width: 991px) {
     .section-gap {
-      padding: 70px 0; } }
+      padding: 0px 0; } }
 
 .section-gap-top {
   padding-top: 150px; }
@@ -3193,10 +3194,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #222222; }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
-      margin-bottom: 30px; } }
+      margin-bottom: 0px; } }
   .footer-area .single-footer-widget h4 {
-    color: #fff;
-    margin-bottom: 35px; }
+    color: #fff;}
     @media (max-width: 1024px) {
       .footer-area .single-footer-widget h4 {
         font-size: 18px; } }
@@ -3238,12 +3238,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     .footer-area .single-footer-widget .click-btn span {
       font-weight: 500; }
   .footer-area .footer-bottom {
-    margin-top: 90px; }
+    text-align:center;}
     @media (max-width: 991px) {
       .footer-area .footer-bottom {
         margin-top: 20px; } }
     .footer-area .footer-bottom .footer-text {
-      color: #fff; }
+      color: #fff;
+       font-size: 18px;}
       .footer-area .footer-bottom .footer-text a,
       .footer-area .footer-bottom .footer-text span {
         color: #46dbf9; }
@@ -3253,7 +3254,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       text-align: center; }
       @media (max-width: 991px) {
         .footer-area .footer-bottom .footer-social {
-          text-align: left;
+          text-align: center;
           margin-top: 30px; } }
       .footer-area .footer-bottom .footer-social a {
         background: #3e4876;
@@ -3269,14 +3270,16 @@ body.mobile-nav-active #mobile-nav-toggle {
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s; }
     .footer-area .footer-bottom .social-link {
-      text-align: right; }
+      text-align: center; }
       @media (max-width: 991px) {
         .footer-area .footer-bottom .social-link {
-          text-align: left;
+          text-align: center;
           margin-top: 30px; } }
     .footer-area .footer-bottom .buttons p {
       font-size: 12px; }
       .footer-area .footer-bottom .buttons p span {
         font-size: 18px; }
+
+
 
 /*# sourceMappingURL=main.css.map */
