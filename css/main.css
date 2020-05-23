@@ -610,7 +610,8 @@ td, th {
   margin-right: 0; }
 
 .section-gap {
-  padding: 100px 0;
+  padding:20px 0;
+
    }
   @media (max-width: 991px) {
     .section-gap {
@@ -1621,6 +1622,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 .main-menu {
+
   padding-top: 10px;
    }
   .main-menu > .row {
@@ -2687,8 +2689,10 @@ body.mobile-nav-active #mobile-nav-toggle {
         margin-bottom: 50px; } }
 
 .post-content-area {
-  background-color: #f9f9ff; }
+  background-color: #f9f9ff;
+  padding-top: 100px; }
   .post-content-area .single-post {
+
     margin-bottom: 50px; }
     .post-content-area .single-post .meta-details {
       text-align: right;
@@ -3238,7 +3242,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     .footer-area .single-footer-widget .click-btn span {
       font-weight: 500; }
   .footer-area .footer-bottom {
-    text-align:center;}
+    text-align:left;}
     @media (max-width: 991px) {
       .footer-area .footer-bottom {
         margin-top: 20px; } }
