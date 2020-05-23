@@ -1657,7 +1657,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 4px solid #46dbf9; }
 
 #header #logo img {
-height: 40px;
+height: 35px;
   padding: 0;
   margin: 0; }
 
@@ -1870,8 +1870,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
 .home-banner-area {
-  background: url(../img/home-banner-bg.jpg) center;
-  background-size: cover; }
+  background: url(../img/home-banner-bg.png) center;
+  background-size: 100%;
+    height:auto; margin: 40px 40px 40px 40px; }
   .home-banner-area .banner-img {
     text-align: right; }
     @media (max-width: 1440px) {
