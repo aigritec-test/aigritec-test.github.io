@@ -1624,13 +1624,15 @@ h1, h2, h3, h4, h5, h6 {
 .main-menu {
 
   padding-top: 10px;
+  padding-left: 60px;
+  padding-right: 45px;
    }
   .main-menu > .row {
     padding: 0 15px; }
 
 #header {
   background-color: #ffffff;
-  opacity: 0.97;
+  opacity: 0.88;
   padding: 0px 0px 10px 0px;
   position: fixed;
   left: 0;
@@ -1660,7 +1662,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 4px solid #46dbf9; }
 
 #header #logo img {
-height: 35px;
+height: 45px;
   padding: 0;
   margin: 0; }
 
@@ -1738,7 +1740,7 @@ height: 35px;
   display: inline-block;
   color: #fff;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   outline: none;
@@ -1875,7 +1877,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .home-banner-area {
   background: url(../img/home-banner-bg.png) center;
   background-size: 100%;
-    height:auto; margin: 40px 40px 40px 40px; }
+    height:auto; margin: 65px 40px 40px 40px; }
   .home-banner-area .banner-img {
     text-align: right; }
     @media (max-width: 1440px) {
