@@ -44,6 +44,7 @@
 
 body {
   color: #777777;
+  background-color:#F7F8F7;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -2058,13 +2059,13 @@ body.mobile-nav-active #mobile-nav-toggle {
         color: #46dbf9; }
 
 .fact-area .fact-box {
-  box-shadow: 0px 20px 50px rgba(153, 153, 153, 0.2); }
+  background-color: #fff;
+  box-shadow: 0px 0px 30px rgba(153, 153, 153, 0); }
 
 .single-fact {
   text-align: center;
   margin: 45px 0;
-  padding: 8px 16px;
-  border-right: 1px solid #ddd; }
+  padding: 8px 16px; }
   @media (max-width: 991px) {
     .single-fact {
       margin: 10px 0;
@@ -3290,7 +3291,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*# sourceMappingURL=main.css.map */
 
-
-.team-category {
-    padding-top: 50px;
+.team-title {
+    padding: 0px 0px 10px 20px ;
 }
+.team-category {
+    padding: 20px 0px 10px 20px ;
+}
+
+
+.reserach-item {
+  box-shadow: 0px 0px 30px rgba(153, 153, 153, 0.2); }
