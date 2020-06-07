@@ -1666,7 +1666,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 4px solid #46dbf9; }
 
 #header #logo img {
-    height: 35px;
+    height: 40px;
   padding: 0;
   margin: 0; }
 
@@ -1750,6 +1750,8 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu a:last-child a {
     margin-right: 0;
     padding-right: 0; }
+
+
 
 .nav-menu ul {
   margin: 24px 0 0 26px;
@@ -1854,7 +1856,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none; }
 
 #mobile-nav ul .menu-item-active {
-  color: #46dbf9; }
+  color: #46dbf9;
+  }
 
 #mobile-body-overly {
   width: 100%;
@@ -3326,7 +3329,7 @@ margin: 80px auto 180px auto;
 color: #444950;
 text-align:center;
 margin: auto;
-font-size: 22px;
+font-size: 20px;
 margin: 35px auto 35px auto;}
 
 .research-area {
