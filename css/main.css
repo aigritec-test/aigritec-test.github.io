@@ -1880,9 +1880,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
 .home-banner-area {
-  background: url(../img/home-banner-bg.png) center;
+
+  background: url(../img/background/homepage-background.jpg) center;
+  opacity: 1;
   background-size: 100%;
-    height:auto; margin: 65px 40px 40px 40px; }
+  height:auto; margin: 65px 0px 300px 0px; }
+    height:auto; margin: 120px 30px 30px 30px; }
+
+
   .home-banner-area .banner-img {
     text-align: right; }
     @media (max-width: 1440px) {
@@ -1933,9 +1938,12 @@ body.mobile-nav-active #mobile-nav-toggle {
         .banner-area .banner-content .right-part span {
           color: #444950; } }
 
+
+
 .home-banner-content h1 {
   font-size: 60px;
-  margin-bottom: 25px; }
+  color: #39b54aff;
+ }
   @media (max-width: 991.98px) {
     .home-banner-content h1 {
       font-size: 36px; } }
@@ -1947,6 +1955,30 @@ body.mobile-nav-active #mobile-nav-toggle {
       margin-top: 50px; } }
 .home-banner-content p {
   margin-bottom: 45px; }
+
+.home-banner-content .banner-text {
+    margin-left:-50px;
+    text-align:left;
+    padding: 100px;
+    width: 600px;
+    height: 500px;
+    font-size: 60px;
+    color: black;
+    background: white;
+  }
+
+    .home-banner-content .banner-text h2{
+    text-align:left;
+    font-size: 45px;
+    font-weight: normal;
+  }
+
+  .home-banner-content .banner-text h4{
+    margin-top:20px;
+    text-align:left;
+    font-size: 18px;
+    font-weight: normal;
+  }
 
 .about-area {
   position: relative;
@@ -2063,7 +2095,8 @@ body.mobile-nav-active #mobile-nav-toggle {
         color: #46dbf9; }
 
 .fact-area .fact-box {
-  margin-top:100px;
+  margin-top:50px;
+  margin-bottom:300px;
   background-color: #fff;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08); }
 
@@ -2071,10 +2104,17 @@ body.mobile-nav-active #mobile-nav-toggle {
           background-color: #777777;
     }
 
+img {
+  border-radius: 50%;
+  font-size:20px;
+  width:150px;
+  height=150px;
+}
+
 .single-fact {
   text-align: center;
-  margin: 45px 0;
-  padding: 8px 16px; }
+  margin: 15px 0;
+  padding: 16px 20px; }
   @media (max-width: 991px) {
     .single-fact {
       margin: 10px 0;
@@ -2082,14 +2122,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-fact:last-child {
     border-right: 0; }
   .single-fact h2 {
-    font-size: 36px;
+
+    font-size: 26px;
     margin-bottom: 5px; }
     @media (max-width: 991px) {
       .single-fact h2 {
         font-size: 25px; } }
+  .single-fact h4 {
+    margin-top: 15px;
+    font-size: 20px;
+     font-weight: normal;}
   .single-fact p {
     margin: 0;
-    font-size: 14px; }
+    font-size: 16px;
+     font-weight: bold;}
 
 .testimonials-area {
   position: relative; }
