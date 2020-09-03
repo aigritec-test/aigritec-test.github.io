@@ -3482,7 +3482,7 @@ margin: 35px auto 35px auto;}
 /* =================================== */
 .single-tech1 {
  opacity: 0.8;
-  background: url(../img/tech/arm1.png) center;
+  background: url(../img/tech/arm2.png) center;
   background-size: 100%;
   background-color: #fff;
   text-align: left;
@@ -3490,7 +3490,6 @@ margin: 35px auto 35px auto;}
   width: 1400px;
   margin: 0px auto 80px auto;
 
-  padding: 15px 15px 15px 15px;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
   }
   @media (max-width: 991px) { }
@@ -3510,7 +3509,13 @@ margin: 35px auto 35px auto;}
       .single-tech1 .top-sec br {
         display: block; } }
 
+  .single-tech1 .top-sec h4 {
+    color: #fff;
+    font-size: 30px;
+  }
   .single-tech1 .end-sec {
+  background-color: #6aa84fff;
+  opacity: .9;
   height:300px;
 
     -webkit-transition: all 0.3s ease 0s;
@@ -3530,7 +3535,7 @@ margin: 35px auto 35px auto;}
 
 
 .single-tech2 {
- opacity: 0.8;
+ opacity: 1;
   background: url(../img/tech/depth.png) center;
   background-size: 100%;
   background-color: #fff;
@@ -3539,7 +3544,6 @@ margin: 35px auto 35px auto;}
   width: 1400px;
   margin: 0px auto 80px auto;
 
-  padding: 15px 15px 15px 15px;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
   }
   @media (max-width: 991px) { }
@@ -3560,6 +3564,9 @@ margin: 35px auto 35px auto;}
         display: block; } }
 
   .single-tech2 .end-sec {
+  height:300px;
+    background-color: #6aa84fff;
+  opacity: .6;
   height:300px;
 
     -webkit-transition: all 0.3s ease 0s;
