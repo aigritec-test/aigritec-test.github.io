@@ -1880,18 +1880,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .home-banner-area {
 
-  background: url(../img/background/homepage-background.jpg) center;
   opacity: 1;
+  background: url(../img/background/homepage-background.jpg) center;
   background-size: 100%;
   height:auto; margin: 65px 0px 200px 0px; }
     height:auto; margin: 120px 30px 30px 30px; }
 
 
   .home-banner-area .banner-img {
+
+
     text-align: right; }
     @media (max-width: 1440px) {
       .home-banner-area .banner-img {
         text-align: left; }
+
         .home-banner-area .banner-img img {
           width: 60%; } }
     @media (max-width: 991px) {
@@ -1905,9 +1908,11 @@ body.mobile-nav-active #mobile-nav-toggle {
       height: 700px !important; } }
 
 .banner-area {
+
   background: url(../img/banner.jpg) center;
   background-size: cover; }
   .banner-area .banner-content {
+
     padding: 162px 0; }
     @media (max-width: 767px) {
       .banner-area .banner-content {
@@ -2227,6 +2232,7 @@ img {
         text-align: center; } }
 
 .pricing-area {
+
   margin-top:100px;
   margin-bottom: 100px;
   position: relative; }
@@ -2253,6 +2259,7 @@ img {
     @media (max-width: 991px) {
       .pricing-area:after {
         display: none; } }
+
 
 .single-price {
   background-color: #fff;
@@ -3420,6 +3427,10 @@ margin: 35px auto 35px auto;}
       .research-area:after {
         display: none; } }
 
+
+/* =================================== */
+/*  Research
+/* =================================== */
 .single-research {
   background-color: #fff;
   text-align: left;
@@ -3463,4 +3474,105 @@ margin: 35px auto 35px auto;}
       color: #fff; }
   @media (max-width: 800px) {
     .single-research {
+      margin-bottom: 30px; } }
+
+
+/* =================================== */
+/*  Technology
+/* =================================== */
+.single-tech1 {
+ opacity: 0.8;
+  background: url(../img/tech/arm1.png) center;
+  background-size: 100%;
+  background-color: #fff;
+  text-align: left;
+  height: 600px;
+  width: 1400px;
+  margin: 0px auto 80px auto;
+
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+  }
+  @media (max-width: 991px) { }
+
+  .single-tech1 .top-sec {
+    border-bottom: 1px solid #eeeeee;
+    height:300px;
+    text-align: left;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .single-tech1 .top-sec br {
+      display: none;
+      }
+    @media (max-width: 1024px) {
+      .single-tech1 .top-sec br {
+        display: block; } }
+
+  .single-tech1 .end-sec {
+  height:300px;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .single-tech1 .end-sec ul li {
+      margin-bottom: 20px; }
+
+  .single-tech1:hover {
+    cursor: pointer; }
+    .single-tech1:hover .price-btn {
+      color: #fff; }
+  @media (max-width: 800px) {
+    .single-tech1 {
+      margin-bottom: 30px; } }
+
+
+.single-tech2 {
+ opacity: 0.8;
+  background: url(../img/tech/depth.png) center;
+  background-size: 100%;
+  background-color: #fff;
+  text-align: left;
+  height: 600px;
+  width: 1400px;
+  margin: 0px auto 80px auto;
+
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+  }
+  @media (max-width: 991px) { }
+
+  .single-tech2 .top-sec {
+    border-bottom: 1px solid #eeeeee;
+    height:300px;
+    text-align: left;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .single-tech2 .top-sec br {
+      display: none;
+      }
+    @media (max-width: 1024px) {
+      .single-tech2 .top-sec br {
+        display: block; } }
+
+  .single-tech2 .end-sec {
+  height:300px;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .single-tech2 .end-sec ul li {
+      margin-bottom: 20px; }
+
+  .single-tech2:hover {
+    cursor: pointer; }
+    .single-tech2:hover .price-btn {
+      color: #fff; }
+  @media (max-width: 800px) {
+    .single-tech2 {
       margin-bottom: 30px; } }
