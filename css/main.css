@@ -3483,7 +3483,7 @@ margin: 35px auto 35px auto;}
 
 /*  Single tech1 */
 .single-tech1 {
- opacity: .8;
+ opacity: 1;
   background: url(../img/tech/arm2.png) center;
   background-size: 100%;
   background-color: #fff;
@@ -3550,8 +3550,9 @@ margin: 35px auto 35px auto;}
 
 /*  Single tech2 */
 .single-tech2 {
- opacity: .8;
-  background: url(../img/tech/spray.png) center;
+ opacity: 1;
+  background: url(../img/tech/depth.png) center;
+  background-repeat: no-repeat;
   background-size: 100%;
   background-color: #fff;
   text-align: left;
@@ -3617,8 +3618,8 @@ margin: 35px auto 35px auto;}
 
 /*  Single tech3 */
 .single-tech3 {
- opacity: .8;
-  background: url(../img/tech/depth.png) center;
+ opacity: 1;
+  background: url(../img/tech/spray.png) center;
   background-size: 100%;
   background-color: #fff;
   text-align: left;
