@@ -2448,7 +2448,8 @@ text-align:left;
   .contact-page-area .single-contact-address h5 {
     font-weight: 600;
     font-size: 16px;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+     text-align: left;}
   .contact-page-area .single-contact-address .lnr {
     font-size: 30px;
     font-weight: 500;
