@@ -1955,7 +1955,14 @@ body.mobile-nav-active #mobile-nav-toggle {
         .banner-area .banner-content .right-part span {
           color: #444950; } }
 
-
+.home-banner-content .banner-text {
+  padding: 2.5rem;
+  font-size: 60px;
+  width:  50%;
+  background: #6aa84fff;
+  background: #BBD9AB;
+  opacity:.95
+}
 
 .home-banner-content h1 {
   font-size: 60px;
@@ -1966,27 +1973,26 @@ body.mobile-nav-active #mobile-nav-toggle {
       font-size: 36px; } }
   @media (max-width: 1199.98px) {
     .home-banner-content h1 {
-      font-size: 35px; } }
+      font-size: 35px; } 
+      .home-banner-content .banner-text  {
+        width: 100%;
+      }}
   @media (max-width: 767px) {
     .home-banner-content h1 {
-      margin-top: 50px; } }
-    .home-banner-content .banner-text  {
-      width: 100%;
+      margin-top: 50px; } 
+      .home-banner-content .banner-text  {
+        width: 100%;
+      }
+
     }
+
 .home-banner-content p {
   margin-bottom: 45px; }
 
-.home-banner-content .banner-text {
-    padding: 2.5rem;
-    font-size: 60px;
-    width:  50%;
-    background: #6aa84fff;
-    background: #BBD9AB;
-    opacity:.95
-  }
+
 
     .home-banner-content .banner-text h2{
-    text-align:left;
+    text-align:left;  
     font-size: 45px;
     font-weight: normal;
     color: #aa84fff;
@@ -3403,6 +3409,11 @@ text-align:left;
 .team-category {
     padding: 20px 0px 10px 20px ;
     margin-bottom: 50px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 
