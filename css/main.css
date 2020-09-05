@@ -42,6 +42,8 @@
   color: #777777;
   font-weight: 300; }
 
+html, body { height: 100% }
+
 body {
   color: #777777;
   background-color:#F7F8F7;
@@ -1667,7 +1669,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo img {
    height: 45px;
-   border-radius: 0px; // not working
+   border-radius: 0px; 
    }
 
 @media (max-width: 768px) {
@@ -1776,6 +1778,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
+  color:  black;
   position: fixed;
   right: 15px;
   z-index: 999;
@@ -1879,14 +1882,22 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
-.home-banner-area {
 
+.home-container {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-banner-area {
+  height: 100%;
   opacity: 1;
   background: url(../img/background/homepage-background.jpg) center;
   background-repeat: no-repeat;
   background-size: 100%;
-  height:auto; margin: 65px 30px 200px 30px; }
-  height:auto; margin: 120px 30px 30px 30px; }
+  height:inherit;
+  margin: 65px 30px 200px 30px; }
 
 
   .home-banner-area .banner-img {
@@ -1959,16 +1970,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   @media (max-width: 767px) {
     .home-banner-content h1 {
       margin-top: 50px; } }
+    .home-banner-content .banner-text  {
+      width: 100%;
+    }
 .home-banner-content p {
   margin-bottom: 45px; }
 
 .home-banner-content .banner-text {
-    margin-left:-50px;
-    text-align:left;
-    padding: 40px;
-    width: 50%;
-    height: 120%;
+    padding: 2.5rem;
     font-size: 60px;
+    width:  50%;
     background: #6aa84fff;
     background: #BBD9AB;
     opacity:.95
@@ -2123,7 +2134,7 @@ img {
   border-radius: 50%;
   font-size:20px;
   width:150px;
-  height=150px;
+  height:150px;
 }
 
 .single-fact {
@@ -3554,8 +3565,6 @@ margin: 35px auto 35px auto;}
       margin-bottom: 30px; } }
 
 .single-tech1 h2 {
-    color: #aa84fff;
-
     font-size: 35px;
     padding: 30px;
 }
@@ -3563,7 +3572,6 @@ margin: 35px auto 35px auto;}
 
 
 .single-tech1 h4 {
-    color: #aa84fff;
     font-size: 20px;
     padding: 30px;
 }
@@ -3630,13 +3638,11 @@ margin: 35px auto 35px auto;}
       margin-bottom: 30px; } }
 
 .single-tech2 h2 {
-    color: #aa84fff;
     font-size: 35px;
     padding: 30px;
 }
 
 .single-tech2 h4 {
-    color: #aa84fff;
     font-size: 20px;
     padding: 30px;
 }
@@ -3697,13 +3703,11 @@ margin: 35px auto 35px auto;}
       margin-bottom: 30px; } }
 
 .single-tech3 h2 {
-    color: #aa84fff;
     font-size: 35px;
     padding: 30px;
 }
 
 .single-tech3 h4 {
-    color: #aa84fff;
     font-size: 20px;
     padding: 30px;
 }
