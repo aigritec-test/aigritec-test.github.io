@@ -2141,7 +2141,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
-img {
+.team-grid img {
   border-radius: 50%;
   font-size:20px;
   width:150px;

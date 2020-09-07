@@ -1,0 +1,45 @@
+/**
+ *  This file imports all required styles
+ */
+/**
+ *  This file holds the stylings for the navigation menu
+ */
+.header {
+  display: grid;
+  grid-template-columns: min-content auto;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  opacity: 0.88;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+.header .header-logo {
+  padding: 0.5rem 2rem;
+}
+.header .header-logo img {
+  max-height: 45px;
+}
+/**
+ *  This file holds the stylings for the navigation menu
+ */
+.header-nav .header-nav-menu {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.header-nav .header-nav-menu li {
+  padding: 1rem;
+}
+.header-nav .header-nav-menu li a {
+  color: #444950;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+/**
+ *  This file holds all colors used in the website
+ */
