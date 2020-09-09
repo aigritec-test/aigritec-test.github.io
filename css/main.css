@@ -1776,34 +1776,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu ul ul {
   margin: 0; }
 
-/* Mobile Nav Toggle */
-#mobile-nav-toggle {
-  color:  black;
-  position: fixed;
-  right: 15px;
-  z-index: 999;
-  top: 22px;
-  border: 0;
-  background: none;
-  font-size: 24px;
-  display: none;
-  transition: all 0.4s;
-  outline: none;
-  cursor: pointer; }
-  @media (max-width: 767px) {
-    #mobile-nav-toggle {
-      top: 22px; } }
 
-#mobile-nav-toggle i {
-
-  font-weight: 900; }
-
-@media (max-width: 960px) {
-  #mobile-nav-toggle {
-    display: inline; }
-
-  #nav-menu-container {
-    display: none; } }
+    
 /* Mobile Nav Styling */
 #mobile-nav {
   position: fixed;

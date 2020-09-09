@@ -41,5 +41,49 @@
   font-family: Helvetica;
 }
 /**
+ *  This file holds the stylings for the navigation menu that is shown on mobile
+ */
+.mobile-nav-toggle {
+  justify-self: right;
+  padding: 1rem;
+  color: black;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  transition: all 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width: 960px) {
+  .mobile-nav-toggle #mobile-nav-toggle {
+    display: inline;
+  }
+  .mobile-nav-toggle #nav-menu-container {
+    display: none;
+  }
+}
+/**
  *  This file holds all colors used in the website
  */
+/**
+ *  This file holds all the common sizes
+ */
+/**
+ *  This file holds the stylings for the containers
+ */
+.dev-container {
+  height: 100%;
+  padding: 0 2rem;
+}
+.content {
+  height: 100%;
+}
+/**
+ *  This file holds the stylings for the index page
+ */
+.index {
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

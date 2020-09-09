@@ -64,7 +64,7 @@ $(document).ready(function () {
             'id': ''
         });
         $('body').append($mobile_nav);
-        $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>');
+        $('body').find('.header').append('<button type="button" class="mobile-nav-toggle" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>');
         $('body').append('<div id="mobile-body-overly"></div>');
         $('#mobile-nav').find('.menu-has-children').prepend('<i class="lnr lnr-chevron-down"></i>');
 
