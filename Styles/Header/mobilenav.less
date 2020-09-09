@@ -1,0 +1,27 @@
+/**
+ *  This file holds the stylings for the navigation menu that is shown on mobile
+ */
+
+.mobile-nav-toggle {
+
+    // positioning
+    justify-self: right;
+    padding: 1rem;
+
+    color: black;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+
+    @media (max-width: 960px) {
+        #mobile-nav-toggle {
+          display: inline; }
+      
+        #nav-menu-container {
+          display: none; } }
+          
+}
