@@ -17,8 +17,13 @@ Router = function ($container) {
         let route = routes[url];
 
         // add the state to the history of the browser
-        var stateDataObj = { state_related: route.page };
-        window.history.pushState(stateDataObj, route.page, url);
+        try {
+            var stateDataObj = { state_related: route.page };
+            window.history.pushState(stateDataObj, route.page, url);
+        }
+        catch(err) {
+            console.log('dev mode');
+        }
         
         // remove old widget from container
         $container.empty();
@@ -196,6 +201,55 @@ Index = function($parent) {
     };
 };
 /**
+ *  This file constructs the index of the team page
+ */
+
+Team = function($parent) {
+
+    // The container
+    const $container = $('<div class="team">').appendTo($parent);
+
+    // create header
+    const $header = $('<div class="section-title">').appendTo($container);
+
+    // add a header
+    $('<h2>').text("Team").appendTo($header);
+
+    //
+    const template = new Team.LoadTemplate($container);
+
+
+    /**
+     *  Destructor
+     */
+    this.remove = () => {
+        
+        // remove the container
+        $container.remove();
+    };
+};
+/**
+ *  This file constructs the index of the team page
+ */
+
+Team.LoadTemplate = function($parent) {
+
+    // The container
+    const $container = $('<div class="team-grid">').appendTo($parent);
+
+    // load the template
+    $container.load('Templates/team.html', function() { console.log('hi'); });
+
+    /**
+     *  Destructor
+     */
+    this.remove = () => {
+        
+        // remove the container
+        $container.remove();
+    };
+};
+/**
  *  This is the main javascript file
  *  It loads components based on the current page
  */
@@ -215,4 +269,4 @@ const router = new Router($content);
  *  If you create a new page, make sure to add it to the router
  */
 router.add('/', 'home', Index);
-router.add('/team', 'team', function() { console.log('This is the team page'); });
+router.add('/team', 'team', Team);
