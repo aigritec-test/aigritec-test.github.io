@@ -16,11 +16,9 @@ Router = function ($container) {
         // Get route by url:
         let route = routes[url];
 
-        console.log(route)
-
         // add the state to the history of the browser
-        var stateDataObj = { state_related: route.page };
-        window.history.pushState(stateDataObj, route.page, url);
+        // var stateDataObj = { state_related: route.page };
+        // window.history.pushState(stateDataObj, route.page, url);
         
         // remove old widget from container
         $container.empty();
