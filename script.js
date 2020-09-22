@@ -17,10 +17,8 @@ Router = function ($container) {
         let route = routes[url];
 
         // add the state to the history of the browser
-        // var stateDataObj = { state_related: route.page };
-        // window.history.pushState(stateDataObj, route.page, url);
-
-        console.log('checking');
+        var stateDataObj = { state_related: route.page };
+        window.history.pushState(stateDataObj, route.page, url);
         
         // remove old widget from container
         $container.empty();
@@ -217,4 +215,4 @@ const router = new Router($content);
  *  If you create a new page, make sure to add it to the router
  */
 router.add('/', 'home', Index);
-router.add('/team', 'team', function() { console.log('hi'); });
+router.add('/team', 'team', function() { console.log('This is the team page'); });

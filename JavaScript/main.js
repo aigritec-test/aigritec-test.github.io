@@ -18,4 +18,4 @@ const router = new Router($content);
  *  If you create a new page, make sure to add it to the router
  */
 router.add('/', 'home', Index);
-router.add('/team', 'team', function() { console.log('hi'); });
+router.add('/team', 'team', function() { console.log('This is the team page'); });
