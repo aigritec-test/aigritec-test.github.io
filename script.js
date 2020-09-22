@@ -18,6 +18,8 @@ Router = function ($container) {
 
         // add the state to the history of the browser
         try {
+            window.location.replace(url);
+
             var stateDataObj = { state_related: route.page };
             window.history.pushState(stateDataObj, route.page, url);
         }
