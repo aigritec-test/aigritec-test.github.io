@@ -13,15 +13,16 @@ Router = function ($container) {
         // Current route url (getting rid of '#' in hash as well):
         let url = location.hash.slice(1) || '/';
 
+        console.log(url)
+
         // Get route by url:
         let route = routes[url];
 
         // add the state to the history of the browser
         try {
-            window.location.replace(url);
 
             var stateDataObj = { state_related: route.page };
-            window.history.pushState(stateDataObj, route.page, url);
+            window.history.replaceState(stateDataObj, route.page, url);
         }
         catch(err) {
             console.log('dev mode');
