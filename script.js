@@ -19,6 +19,8 @@ Router = function ($container) {
         // add the state to the history of the browser
         // var stateDataObj = { state_related: route.page };
         // window.history.pushState(stateDataObj, route.page, url);
+
+        console.log('checking');
         
         // remove old widget from container
         $container.empty();
