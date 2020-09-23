@@ -19,3 +19,5 @@ const router = new Router($content);
  */
 router.add('/', 'home', Index);
 router.add('/team', 'team', Team);
+
+router.listen();
