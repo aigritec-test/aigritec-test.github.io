@@ -7,6 +7,8 @@ Router = function ($container) {
     // A hash to store our routes:
     let routes = {};
 
+    console.log('htaccess')
+
     // the actual router
     function router () {
 
