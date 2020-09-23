@@ -18,9 +18,8 @@ Router = function ($container) {
         // Get route by url:
         let route = routes[url];
 
-        // add the state to the history of the browser
+        // add the state to the history of the browser, also need to keep the current state, before clicking!
         try {
-
             var stateDataObj = { state_related: route.page };
             window.history.replaceState(stateDataObj, route.page, url);
         }

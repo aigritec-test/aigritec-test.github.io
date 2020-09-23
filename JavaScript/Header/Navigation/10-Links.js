@@ -31,7 +31,14 @@ Header.Links = function($parent) {
 
         // create the link itself
         // $('<a>').text(name).appendTo($linkContainer);
-        $('<a>').attr('href', link).text(name).appendTo($linkContainer);
+        const $link = $('<a>').attr('href', link).text(name).appendTo($linkContainer);
+
+        // if replacing state in router doesnt work, do it here
+        // $link.on('click', () => {
+
+        //     var stateDataObj = { state_related: name };
+        //     window.history.replaceState(stateDataObj, name, link);
+        // });
     };
 
     /**
