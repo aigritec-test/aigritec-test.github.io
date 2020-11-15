@@ -1,0 +1,193 @@
+/**
+ *  These are the styles for the index page on mobile
+ */
+
+.index-mobile {
+
+    // set standard background color
+    background-color: #F7F8F7;
+
+    .index-mobile-image {
+
+        // here we hardcode the height to make sure the image doesn't take up too much of the phone
+        width: 100%;
+        height: 100%;
+
+        img {
+            // here we hardcode the height to make sure the image doesn't take up too much of the phone
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .index-mobile-landing {
+
+        // make sure the landing text will be centered
+        position: relative;
+        color: white;
+
+        .index-mobile-landing-box { 
+            
+            will-change: transform;
+        }
+
+        // due to transition effects (it does not instantly remove the older div),
+        // we must not display the older div (second one)
+        .index-mobile-landing-box:nth-child(2) {
+            display: none;
+        }
+
+        // styling for the text within
+        .index-mobile-landing-text {
+
+            // center the text
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            overflow-x: hidden;
+
+            // grid display
+            display:grid;
+
+            // display:flex;
+            // flex-direction: column;
+
+            // span full width
+            width:  100%;
+        
+            .text-box {
+
+                // give some space
+                padding: 0.5rem 2rem;
+
+                // background-color: rgba(255,255,255,0.88);
+                background-color: #F7F8F7;
+
+            }
+
+            .text-1 {
+
+                // move it slighty down to create some overlap
+                position: relative;
+                top: 10px;
+
+                margin-right: 2rem;
+
+                display: inline-block;
+
+                // create border radius to make it more pretty
+                border-radius: 0 10rem 0 0;
+
+                .loaded {
+
+                }
+            }
+
+            .text-2 {
+                margin-left: 2rem;
+
+                // create border radius to make it more pretty
+                border-radius: 0 0 0 10rem;
+
+                .loaded {
+                    
+                }
+            }
+
+            @media screen {
+                @media (min-width: 550px) {
+                  .text-2 {
+                    display: inline-block;
+                  }
+                }
+              }
+            
+            // the text should stand out
+            h1 {
+                color: #4CAF50;
+                margin: 0;
+                font-size:30px;
+            }
+
+            // change font size of title screen based on screen size
+            @media screen {
+                @media (max-width: 880px) {
+                  h1 {
+                      font-size: 20px; 
+                      font-size: 5vw; 
+                    }
+                }
+                @media (max-width: 330px) {
+                    h1 {
+                        font-size: 20px; 
+                        font-size: 4w; 
+                      }
+                  }
+            }
+
+        }        
+    }
+
+    // styling for the technology part
+    .index-mobile-technology {
+
+        // create layout
+        display: grid;
+
+        // set background
+        background-size: 100%;        
+
+        // set minimum height --> @TODO JUST USE IMAGE SIZE
+        min-height: 20vh;
+        
+        // the styling for the description below
+        .index-mobile-technology-description {
+
+            padding: 0 1rem;
+            background: rgba(0, 0, 0, 0.4);
+
+            display:        flex;
+            flex-direction: column;
+
+            h4
+            { 
+                margin-top: 1rem;
+                color:white;
+                padding-top: 2rem;
+            }
+            
+            // styling for the button
+            .index-mobile-technology-link {
+
+                align-self: center;
+
+                button {
+
+                    // white text color
+                    color: white;
+
+                    // give some space
+                    padding: 0.5rem 1rem;
+
+                    margin-bottom: 1rem;
+
+                    // set background
+                    background: rgba(255, 255, 255, 0.2);
+
+                    // set border
+                    border: 1px solid white;
+                    border-radius: 4px;
+
+                    // use pointer cursor
+                    cursor: pointer;               
+                }
+            }
+        }
+    }
+
+}
+
+.index-mobile > * {margin-bottom: 1rem; }

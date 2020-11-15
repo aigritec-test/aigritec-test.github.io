@@ -1,0 +1,59 @@
+/**
+ *  This file holds the stylings for the contact info
+ */
+
+// the root class
+.contact-info {
+
+    // put title in center
+    .contact-info-title { text-align: center; }
+
+    .contact-info-boxes {
+
+        // create layout
+        display: grid;
+
+        margin-top: 2.3rem;
+
+        .contact-info-box {
+
+            // give some space
+            margin:                 1rem 0;
+            padding:                1rem 2rem;
+
+            // create layout
+            display:                grid;
+            // grid-template-columns:  repeat(auto-fill, minmax(1rem, 14rem));
+            grid-gap: 2rem;
+
+            // display: flex;
+            // flex-wrap: wrap;
+            justify-content: center;
+            // align-items: center;
+
+            // give border
+            // border: 1px solid #eeeeee;
+            // background-color:       white;
+
+            text-align: center;
+
+            // vertical centralization
+            align-items: center;
+
+            // the font awesome class
+            svg { 
+                width: 3rem;
+                justify-self: center;
+                font-size:25px; }
+
+            .contact-info-box-text {
+
+                // create layout
+                display:            grid;
+
+                // remove margins
+                h3,p {margin: 0;}
+            }
+        }
+    }
+}

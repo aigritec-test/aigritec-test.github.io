@@ -1,0 +1,50 @@
+/**
+ *  This file holds the stylings for a generic page
+ *  It shows a page title and centers the content 
+ */
+
+// the root class for the page title
+.page {
+
+    display:  grid;
+    grid-template-rows: 12rem auto;
+
+    align-items: center;
+
+    // @TODO fix the margins, this is very ugly
+    .page-title {
+
+        margin-left: 4rem;
+
+        // increase font size
+        h1 { 
+          padding-top: 1rem;
+          font-size: 50px; 
+          margin-bottom: 0;
+        }
+    }
+
+    .page-content {
+
+      // horizontally center and use full width
+      justify-self: center;
+      width: 100%;
+    }
+
+    // set a max width if the screen is big enough
+    @media screen {
+        @media (min-width: 1200px) {
+          .page-content {
+            width: 65%;
+          }
+        }
+
+        @media (max-width: 800px) {
+          .page-title {
+            justify-self: center;
+            margin-left: 0;
+
+          }
+        }
+      }
+}

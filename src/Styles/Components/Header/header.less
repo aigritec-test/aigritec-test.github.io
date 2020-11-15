@@ -1,0 +1,51 @@
+/**
+ *  This file holds the stylings for the navigation menu
+ */
+
+// the root class
+.header {
+
+    // create layout
+    display: grid;
+    grid-template-columns: min-content auto; 
+    align-items: center;
+
+    // make pretty
+    background-color:   #ffffff;
+    border-bottom:      1px solid #eeeeee;
+    opacity:            0.88;
+
+    // ensure the header is always visible
+    position:           fixed;
+    left:               0;
+    top:                0;
+    right:              0;
+
+    // @todo maybe remove this
+    transition: all 0.5s;
+    z-index: 997;
+
+    // the logo
+    .header-logo {
+        
+        // give the image some padding
+        padding: 0.5rem 3rem;
+
+
+
+        // styling for the images
+        img {
+            
+            // set a max height
+            max-height: 45px;
+        }
+    }
+
+    @media screen {
+        @media (max-width: 880px) {
+          .header-logo {
+            padding: 0.5rem 1rem;
+          }
+        }
+      }
+}

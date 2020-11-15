@@ -1,0 +1,29 @@
+/**
+ *  Animation for sliding left
+ */ 
+.slide-left-enter {
+    transform: translateX(100%);
+}
+
+.slide-left-enter.slide-left-enter-active {
+    transform: translateX(0%);
+    transition: transform 2000ms ease-in-out;
+    -webkit-transition: transform 2000ms ease-in-out;
+    -o-transition: transform 2000ms ease-in-out;
+    -moz-transition: transform 2000ms ease-in-out;
+}
+
+/**
+ *  Animation for sliding right
+ */ 
+.slide-right-enter {
+    transform: translateX(-100%);
+}
+
+.slide-right-enter.slide-right-enter-active {
+    transform: translateX(0%);
+    transition: transform 2000ms ease-in-out;
+    -webkit-transition: transform 2000ms ease-in-out;
+    -o-transition: transform 2000ms ease-in-out;
+    -moz-transition: transform 2000ms ease-in-out;
+}

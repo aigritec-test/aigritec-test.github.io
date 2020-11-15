@@ -1,0 +1,21 @@
+/**
+ *  This file holds the stylings for the contact page
+ */
+
+// the root class
+.contact {
+
+    // create grid layout for both the form and the map
+    display:    grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-gap: 2rem;
+}
+
+@media screen {
+    @media (max-width: 1200px) {
+      .contact {
+        grid-template-columns: 1fr;
+        }
+    }
+}

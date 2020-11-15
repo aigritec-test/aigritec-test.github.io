@@ -1,0 +1,54 @@
+/** 
+ *  These are the styles for the dropdown menu shown when a user is on a mobile phone
+ */
+
+.header-dropdown {
+
+    display: flex;
+    justify-content: flex-end;
+
+    svg {
+
+        // change cursor
+        cursor: pointer;
+        
+        // move to the right
+        float: right;
+
+        // give some space
+        padding: 1rem;
+
+        // set custom font size for dropdown toggle
+        font-size: 25px;
+    }
+}
+
+.header-dropdown-menu {
+
+    // make dropdown span entire column
+    grid-column: 1 ~"/" -1;
+
+    // styling for the links
+    li {
+
+        // move names over to the right
+        text-align:right;
+
+        // change the links
+        a {
+
+            // give some space
+            padding:        0.5rem;
+
+            // set proper colors
+            color:          @header-font-color;
+            font-weight:    500;
+            font-size:      18px;
+            font-family:    Helvetica;
+
+            // make sure the links span the entire screen so they can easily be clicked
+            display:        block;
+    
+        }
+    }
+}
